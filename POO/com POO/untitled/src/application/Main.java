@@ -26,9 +26,8 @@ public class Main {
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double areaX = calculateArea(x.a, x.b, x.c);
-
-        double areaY = calculateArea(y.a, y.b, y.c);
+        double areaX = x.area();
+        double areaY = y.area();
 
         System.out.printf("triangle X area: %.4f%n", areaX);
         System.out.printf("triangle Y area: %.4f%n", areaY);
@@ -44,10 +43,5 @@ public class Main {
         sc.close();
     }
 
-    public static double calculateArea(double a, double b, double c) {
-        double area;
-        double p = (a + b + c) / 2;
-        area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        return area;
-    }
+
 }
