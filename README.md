@@ -19,7 +19,3 @@ Dentro de cada pasta há o projeto Java completo (pasta `src/` com os pacotes).
 
 - Java
 - IntelliJ IDEA
-
-## Como rodar
-
-Abra a pasta do exercício desejado no IntelliJ e execute a classe `Main.java`.
