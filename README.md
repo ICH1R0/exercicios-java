@@ -15,6 +15,7 @@ Dentro de cada pasta há o projeto Java completo (pasta `src/` com os pacotes).
 | `POO` | Exercícios de Programação Orientada a Objetos. |
 | `funcoes` | Exercícios sobre métodos e funções. |
 | `encapsulamento-construtores-sobrecarga` | Exercícios de encapsulamento, construtores e sobrecarga de métodos. |
+| `Vetores` | Exercícios sobre vetores: soma de vetores, filtro de valores negativos, cálculo de alturas e simulação de rsatreio de pensionato. |
 
 ## Tecnologias
 
