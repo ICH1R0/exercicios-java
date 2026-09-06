@@ -14,6 +14,7 @@ Dentro de cada pasta há o projeto Java completo (pasta `src/` com os pacotes).
 | `conversor-moeda` | Lê a cotação do dólar e converte um valor em dólares para reais, aplicando 6% de IOF sobre o valor convertido. |
 | `POO` | Exercícios de Programação Orientada a Objetos. |
 | `funcoes` | Exercícios sobre métodos e funções. |
+| `encapsulamento-construtores-sobrecarga` | Exercícios de encapsulamento, construtores e sobrecarga de métodos. |
 
 ## Tecnologias
 
