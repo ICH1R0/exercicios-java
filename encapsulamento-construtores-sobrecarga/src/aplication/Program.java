@@ -27,22 +27,20 @@ public class Program {
             usuario = new ContaUsuario(numConta, nome);
         }
 
-        ContaUsuario usuario = new ContaUsuario(numConta, nome, saldo);
-
         System.out.println("Dados da Conta: ");
         System.out.println("Conta " + usuario.getNumConta() + ", Titular" + usuario.getNome() + ", Saldo: " + usuario.getSaldo());
 
         System.out.print("Valor do deposito: ");
-        usuario.setSaldo(usuario.deposito(sc.nextDouble()));
+        usuario.deposito(sc.nextDouble());
 
         System.out.println("Atualização da conta:");
-        System.out.println("Conta " + usuario.getNumConta() + ", Titular" + usuario.getNome() + ", Saldo: " + usuario.getSaldo());
+        System.out.println(usuario.toString());
 
         System.out.print("Valor do saque: ");
-        usuario.setSaldo(usuario.saque(sc.nextDouble()));
+        usuario.saque(sc.nextDouble());
 
         System.out.println("Atualização da conta:");
-        System.out.println("Conta " + usuario.getNumConta() + ", Titular" + usuario.getNome() + ", Saldo: " + usuario.getSaldo());
+        System.out.println(usuario.toString());
 
 
 
