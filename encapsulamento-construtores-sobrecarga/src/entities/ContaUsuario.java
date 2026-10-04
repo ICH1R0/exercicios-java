@@ -42,4 +42,8 @@ public class ContaUsuario  {
     public  double saque (double saque){
         return saldo = (saldo - 5) - saque;
     }
+
+    public String toString() {
+        return ("Conta " + getNumConta() + ", Titular: " + getNome() + ", Saldo: " + getSaldo());
+    }
 }
